@@ -16,10 +16,6 @@ Follow below the goals for this project:
 * Objective 3: Optimize the Model
 * Objective 4: Write a report on the performance of the deep learning model we created for AlphabetSoup
 
-## Resources
-
-* Data Output: [AlphabetSoupCharity.ipynb](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.ipynb), [AlphabetSoupCharity.h5](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity.h5), [AlphabetSoupCharity.ipynb](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization.ipynb), and [AlphabetSoupCharity_Optimization.h5](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/AlphabetSoupCharity_Optimization.h5). The database is available on [charity_data.csv](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/Resources/charity_data.csv) 
-* Software & Data Tools: Python 3.8.8, Visual Studio Code 1.64.2, Jupyter Notebook 6.4.8, pandas 1.4.1, numpy 1.20.3 and scikit-learn 1.0.2
 
 ## Results & Code
 
@@ -28,31 +24,20 @@ Follow below the goals for this project:
 * Read in the charity_data.csv to a Pandas DataFrame, and be sure to identify the following in your dataset:
 * Drop the EIN and NAME columns.
 
-![](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_1_1.PNG)
+![]https://github.com/deejoseph281/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_1_1.PNG
 
 * Determine the number of unique values for each column.
 * For those columns that have more than 10 unique values, determine the number of data points for each unique value.
 * Create a density plot to determine the distribution of the column values.
-
-![](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_1_2.PNG)
-
 * Use the density plot to create a cutoff point to bin "rare" categorical variables together in a new column, Other, and then check if the binning was successful.
-
-![](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_1_3.PNG)
-
 * Generate a list of categorical variables.
 * Encode categorical variables using one-hot encoding, and place the variables in a new DataFrame.
-
-![](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_1_4.PNG)
-![](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_1_5.PNG)
-
 * Merge the one-hot encoding DataFrame with the original DataFrame, and drop the originals.
 * Split the preprocessed data into features and target arrays.
 * Split the preprocessed data into training and testing datasets.
 * Standardize numerical variables using Scikit-Learn’s StandardScaler class, then scale the data.
 
-![](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_1_6.PNG)
-
+https://github.com/deejoseph281/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_1_6.PNG
 
 ## Objective 2: Compile, Train, and Evaluate the Model
 
@@ -63,24 +48,18 @@ Follow below the goals for this project:
 * Create an output layer with an appropriate activation function.
 * Check the structure of the model.
 * Compile and train the model.
-
-![](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_2_1.PNG)
-
 * Create a callback that saves the model's weights every 5 epochs.
-
-![](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_2_2.PNG)
-
 * Evaluate the model using the test data to determine the loss and accuracy.
 * Save and export your results to an HDF5 file, and name it AlphabetSoupCharity.h5.
 
-![](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_2_3.PNG)
+![]https://github.com/deejoseph281/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_2_3.PNG
 
 
 ##  Objective 3: Optimize the Model
 
 * Noisy variables are removed from features 
 
-![](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_3_1.PNG)
+![]https://github.com/deejoseph281/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_3_1.PNG
 
 ### First Optimization
 
@@ -89,9 +68,7 @@ Follow below the goals for this project:
 * The model's weights are saved every 5 epochs 
 * The results are saved to an HDF5 file 
 
-![](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_3_2.PNG)
-![](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_3_3.PNG)
-
+![]https://github.com/deejoseph281/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_3_3.PNG
 
 ### Second Optimization
 
@@ -101,9 +78,7 @@ Follow below the goals for this project:
 * The model's weights are saved every 5 epochs 
 * The results are saved to an HDF5 file 
 
-![](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_3_4.PNG)
-![](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_3_5.PNG)
-![](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_3_6.PNG)
+![]https://github.com/deejoseph281/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_3_6.PNG
 
 
 ### Third Optimization
@@ -114,8 +89,7 @@ Follow below the goals for this project:
 * The model's weights are saved every 5 epochs 
 * The results are saved to an HDF5 file 
 
-![](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_3_7.PNG)
-![](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_3_8.PNG)
+![]https://github.com/deejoseph281/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_3_8.PNG
 
 ## Write a report on the performance of the deep learning model we created for AlphabetSoup
 
@@ -151,7 +125,7 @@ Following below the variables that we considered on the feature related to the p
 
 following below is a summary of the three optimizations with results obtained
 
-![](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_4.PNG)
+![]https://github.com/deejoseph281/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_4.PNG
 
 In the first optimization, we tried to add the fourth layer, changing the neurons and keeping 50 epochs and not changing the activation function of hidden layers or output layers.
 
@@ -204,12 +178,6 @@ Third Optimzation
 ## SUMMARY
 
 The neural networks are not a definitive answer for all information data science issues. The figure underneath shows that there are trade-offs to utilizing the new and famous neural network (and deep learning) models over their more established, frequently more lightweight statistics and machine learning counterparts.
-
-![](https://github.com/DougUOT/Neural_Network_Charity_Analysis/blob/main/Resources/Images/Capture19_5.PNG)
-
-## NOTE
-
-Note: All the checkpoints HDF5 Files are available on [HDF5 Files Folder](https://github.com/DougUOT/Neural_Network_Charity_Analysis/tree/main/Resources/Checkpoints%20HDF5%20Files%20saved)
 
 ## RECOMMENDATIONS
 
